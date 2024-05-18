@@ -1,0 +1,18 @@
+
+# Arquivos e diretórios Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyd
+*.so
+
+# Diretórios de ambiente virtual
+env/
+venv/
+.venv/
+
+# Arquivos de configuração de IDEs
+.idea/
+.vscode/
+*.swp
