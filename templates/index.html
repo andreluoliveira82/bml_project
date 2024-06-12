@@ -2,9 +2,11 @@
 
 {% block content %}
 
-    <h1>BlogMaker Lite</h1>
+    <div class="hero">
+        <p><span class="title">BlogMaker Lite</span> lets you...</p>
+        <p>Make a blog today...</p>
+    </div>
 
-    <p>O BlogMaker Lite permite que você compartilhe suas ideias com o mundo.</p>
-    <p>Crie um blog hoje e conte-nos o que você está pensando!</p>
-
+    <a class="button primary" href="{% url 'blogs' %}">See all blogs</a>
+    
 {% endblock content %}

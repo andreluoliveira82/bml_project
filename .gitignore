@@ -16,3 +16,6 @@ venv/
 .idea/
 .vscode/
 *.swp
+
+# others files
+STATIC_ROOT
